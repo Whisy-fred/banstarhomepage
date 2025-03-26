@@ -1,0 +1,110 @@
+*{
+ margin: 0%;  
+ padding: 0%;
+}
+body{
+    background-image: url(back.jpeg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+nav ul, li{
+   
+    justify-content: center;
+    overflow: hidden;
+    float: right;
+    
+    
+    
+}
+nav, li a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    text-align: center;
+    border-right: 2px solid black;
+    
+}
+nav li a:hover{
+    background-color: blue;
+    color: white;
+}
+h1{
+    text-shadow: 2px 2px rgb(59, 0, 0);
+    float: left;
+    margin: 0;
+    padding: 0;
+    
+}
+section{
+    margin: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin-right: 50px;
+    color: gray;
+}
+.d1{
+    margin: auto;
+    border: 2px solid black;
+    width: max-content;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+div{
+    border-radius: 10px;
+    border: 3px solid  gray;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.767);
+    color: rgb(0, 68, 95);
+    font-style: italic;
+    padding: 3px;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+    
+}
+.d6{
+    background-color: gold;
+}
+.d5{
+    background-color: rgb(68, 68, 68);
+}
+i{
+    padding: 5px;
+}
+div:hover{
+    background-color: aquamarine;
+    color: darkgray;
+    
+}
+article{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 4px;
+    color: rgb(72, 105, 14);
+    text-transform: capitalize;
+    font-style: italic;
+}
+footer{
+    text-align: left;
+    color: aliceblue;
+    align-items: center;
+}
+h3{
+    text-transform: uppercase;
+    color: rgb(18, 187, 55);
+}
